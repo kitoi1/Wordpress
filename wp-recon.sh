@@ -11,14 +11,14 @@ TARGET="$1"
 WORDLIST="/usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt"
 EXTENSIONS="php,html,json,txt"
 THREADS=20  # Reduced for less aggressive scanning
-WP_API_KEY="TCspipMJxOsJde6s71Penuj8sXcMUqzzs17MXLtULZ4"  # Updated API key
+WP_API_KEY="Your_WPScan_API_KEY"  # Updated API key
 OUTPUT_DIR="./wp_scan_results_$(date +%Y%m%d_%H%M%S)"
 LOG_FILE="$OUTPUT_DIR/scan_log.txt"
 RATE_LIMIT_DELAY=1  # Seconds between requests
 
 # Security Controls
 MAX_SCAN_DURATION=3600  # 1 hour maximum scan duration
-PERMITTED_DOMAINS=("example.com" "watuafrica.com")  # Add permitted domains for safety
+PERMITTED_DOMAINS=("example.com" "YourDomain.com")  # Add permitted domains for safety
 
 # === SECURITY CHECKS ===
 validate_target() {
