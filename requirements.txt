@@ -1,0 +1,12 @@
+
+---
+
+### ✅ `requirements.txt`
+
+```text
+wpscan
+gobuster
+nikto
+jq
+curl
+whatweb
